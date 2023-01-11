@@ -14,7 +14,7 @@ function StickyBar() {
         <p className={styles.StickyP}>bbonteemma@gmail.com</p>
       </div>
       <div className={styles.StickySocial}>
-        <img src={social} alt="Social Media Icons" />
+        <img src={social} alt="Social Media Icons" width={150} />
       </div>
     </div>
   );

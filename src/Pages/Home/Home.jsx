@@ -1,7 +1,7 @@
 import React from 'react';
 import StickyBar from '../../Components/StickyBar';
 import NavBar from '../../Components/NavBar';
-import HeroSection from './HeroSection';
+import HeroSection from './HeroSection/HeroSection';
 
 function HomePage() {
   return (
