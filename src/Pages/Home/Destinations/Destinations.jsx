@@ -40,7 +40,7 @@ export default function Destinations() {
       <Heading
         title1="Popular Destinations"
         title2="Select Our Best Popular Destinations"
-        marginBottom="50px"
+        marginBottom="20px"
       />
       <div className="destination__arrows">
         <img src={Arrow1} alt="arrow" />

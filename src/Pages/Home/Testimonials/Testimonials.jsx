@@ -28,10 +28,12 @@ export default function Testimonials() {
 
   return (
     <div className="testimonials">
-      <div className="cards__text">
-        <span>Why us?</span>
-        <h1>Why Travel with Africa wizzy Safari</h1>
-      </div>
+      <Heading
+        title1="Why us?"
+        title2="Why Travel with Africa wizzy Safari"
+        marginTop="-30px"
+        marginBottom="50px"
+      />
       <div className="testimonials__container">
         <div className="testimonials__contents">
           <div className="testimonials__content">
@@ -61,7 +63,12 @@ export default function Testimonials() {
           </div>
         </div>
       </div>
-      <Heading title1="Why us?" title2="Why Travel with Africa wizzy Safari" />
+      <Heading
+        title1="Our Traveller Say"
+        title2="What our clients say about us"
+        marginTop="50px"
+        marginBottom="50px"
+      />
       <div className="testimonial__client">
         {test.map((data) => {
           return (
