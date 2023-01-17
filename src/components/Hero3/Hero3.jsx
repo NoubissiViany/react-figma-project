@@ -5,7 +5,7 @@ import './Hero3.css';
 
 export default function Hero3({ data, text, marginTop }) {
   return (
-    <div className="hero3" style={{marginTop}}>
+    <div className="hero3" style={{ marginTop }}>
       <h1 className="hero3__h1">{data}</h1>
       <div className="subhero">
         <h2>Home</h2>
@@ -19,4 +19,5 @@ export default function Hero3({ data, text, marginTop }) {
 Hero3.propTypes = {
   data: PropTypes.string.isRequired,
   text: PropTypes.string.isRequired,
+  marginTop: PropTypes.string.isRequired,
 };
