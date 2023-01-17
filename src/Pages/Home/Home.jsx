@@ -1,16 +1,24 @@
 import React from 'react';
-import StickyBar from '../../Components/StickyBar';
-import NavBar from '../../Components/NavBar';
-import HeroSection from './HeroSection/HeroSection';
+import NavBar from '../../components/NavBar/NavBar';
+import StickyBar from '../../components/StickyBar/StickyBar';
+import Cards from './Cards/Cards';
+import Destinations from './Destinations/Destinations';
+import Footer from './Footer/Footer';
+import Hero from './Hero/Hero';
+import Subsearch from './Subsearch/Subsearch';
+import Testimonials from './Testimonials/Testimonials';
 
-function HomePage() {
+export default function Home() {
   return (
     <div>
       <StickyBar />
       <NavBar />
-      <HeroSection />
+      <Hero />
+      <Subsearch />
+      <Cards />
+      <Destinations />
+      <Testimonials />
+      <Footer />
     </div>
   );
 }
-
-export default HomePage;

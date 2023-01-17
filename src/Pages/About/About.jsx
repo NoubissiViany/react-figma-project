@@ -1,31 +1,16 @@
-import { Link, useNavigate } from 'react-router-dom';
+import React from 'react';
+import StickyBar from '../../components/StickyBar/StickyBar';
+import Footer from '../Home/Footer/Footer';
+import Hero2 from './Hero2/Hero2';
+import Safarri from './Safarri/Safarri';
 
-function AboutPage() {
-  const navigate = useNavigate();
-
-  /*  useEffect(() => {
-    const timeout = setTimeout(() => {
-      navigate('/');
-    }, 5000);
-
-    return () => clearTimeout(timeout);
-  }, []); */
-
-  function goAfter5() {
-    setTimeout(() => {
-      navigate('/');
-    }, 5000);
-  }
-
+export default function About() {
   return (
     <div>
-      <h1>About Pages</h1>
-      <Link to="/">Go back</Link>
-      <button onClick={goAfter5} type="button">
-        Go after 5
-      </button>
+      <StickyBar />
+      <Hero2 />
+      <Safarri />
+      <Footer />
     </div>
   );
 }
-
-export default AboutPage;
