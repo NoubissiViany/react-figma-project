@@ -1,0 +1,13 @@
+.visits__pointers {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px auto;
+}
+
+.visits__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

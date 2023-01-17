@@ -1,0 +1,44 @@
+.StickyBar {
+  background-color: #304f47;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+  min-height: 50px;
+  align-items: center;
+}
+
+span {
+  display: flex;
+  gap: 5px;
+}
+
+.StickyBar__leftpart {
+  display: flex;
+  gap: 20px;
+  color: white;
+}
+
+.fa-solid {
+  font-size: 25px;
+}
+
+@media screen and (max-width: 425px) {
+  .StickyBar {
+    flex-direction: column;
+    padding: 10px 0;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .StickyBar__leftpart {
+    flex-wrap: wrap;
+    max-width: 400px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .StickyBar__leftpart span {
+    display: flex;
+    align-items: center;
+  }
+}

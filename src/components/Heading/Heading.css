@@ -1,0 +1,30 @@
+.Heading {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    max-width: 550px;
+    margin: auto;
+  }
+  
+  .Heading__h3 {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    margin-top: 60px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #c7923e;
+  }
+  
+  .Heading__h2 {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    margin-top: -10px;
+    letter-spacing: 0.005em;
+    color: #000000;
+  }

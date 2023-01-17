@@ -1,0 +1,41 @@
+.Hero {
+  background-image:linear-gradient(45deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)) ,url('../../../asserts/images/ground.png');
+  height: 740px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  position: relative;
+}
+
+.Hero h1 {
+  max-width: 700px;
+  font-size: 57px;
+}
+
+.Hero__content {
+  width: 82%;
+  height: 300px;
+  margin-bottom: 50px;
+}
+
+.Hero__pointers {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 425px) {
+  .Hero h1 {
+    font-size: 36px;
+  }
+
+  .Hero__content {
+    max-width: 300px;
+    height: fit-content;
+  }
+}

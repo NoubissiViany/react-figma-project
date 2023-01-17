@@ -1,0 +1,41 @@
+.NavBar {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  justify-content: space-between;
+  min-height: 97px;
+  align-items: center;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.menu {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.paragraphs {
+  display: flex;
+  gap: 10px;
+  font-size: 17px;
+}
+
+.paragraphs__link {
+  text-decoration: none;
+  color: #304F47;
+}
+
+.paragraphs__link:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 425px) {
+  .paragraphs {
+    flex-wrap: wrap;
+  }
+
+  .NavBar {
+    width: 100%;
+  }
+}

@@ -1,0 +1,40 @@
+.sites {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  max-width: 1300px;
+  margin: 0 auto;
+  gap: 15px;
+  margin-bottom: 35px;
+}
+
+.sites__content {
+  max-width: 350px;
+  height: 584px;
+  border-radius: 8px;
+  border: 1px solid #e1e1e1;
+  background-color: #fff;
+}
+
+.sites__text {
+  padding-left: 15px;
+  padding-right: 70px;
+}
+
+.sites__text h2 {
+  color: black;
+}
+
+.sites__container {
+  height: 185px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 425px) {
+  .sites__pic {
+    width: 100%;
+  }
+}

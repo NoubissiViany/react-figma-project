@@ -1,0 +1,21 @@
+.pictures__content__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto 60px;
+  gap: 10px;
+}
+
+.pic {
+  width: 200px;
+  height: 200px;
+}
+
+.pictures__btn {
+  width: 95%;
+  display: flex;
+  justify-content: flex-end;
+  margin: 80px 0;
+}
