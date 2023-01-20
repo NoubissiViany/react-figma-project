@@ -69,6 +69,10 @@ span img {
     width: 80%;
   }
 
+  .Subsearch__img {
+    display: none;
+  }
+
   .Subsearch__content {
     display: flex;
     gap: 8vw;

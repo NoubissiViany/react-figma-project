@@ -73,6 +73,10 @@
     flex-direction: column-reverse;
 } 
 
+.logo {
+  margin-top: 15px;
+}
+
 .footer__right {
     padding: 0 20px;
 }

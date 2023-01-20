@@ -73,7 +73,7 @@ form h3 {
 
 textarea {
   border: 1px solid #e1e1e1;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 8px;
   width: 90%;
   min-height: 120px;
@@ -99,6 +99,31 @@ textarea {
   display: flex;
   margin: 70px 0;
   gap: 20px;
+}
+
+.address__email__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.address__address__p,
+.address__email__p {
+  font-family: 'Podkova';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #304f47;
+}
+
+.marginTop {
+  margin-top: -1px;
+}
+
+.marginTop1 {
+  margin-top: 5;
 }
 
 @media screen and (max-width: 768px) {

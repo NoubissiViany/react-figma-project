@@ -34,7 +34,7 @@ export default function Footer() {
         </div>
         <div className="footer__right">
           <div className="footer__right__images">
-            <img src={Continent} alt="country" />
+            <img src={Continent} className="logo" alt="country" />
             <img src={Web} alt="net" />
           </div>
           <p className="footer__p">
