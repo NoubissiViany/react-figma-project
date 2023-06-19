@@ -1,0 +1,26 @@
+.ErrorPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 4%;
+}
+
+.ErrorPage__h1 {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  text-align: center;
+  letter-spacing: 0.005em;
+  color: #000000;
+}
+
+.ErrorPage__h3 {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  letter-spacing: 0.005em;
+  color: #000000;
+}

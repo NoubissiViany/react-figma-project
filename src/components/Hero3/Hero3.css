@@ -1,0 +1,43 @@
+.hero3 {
+  background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)) ,url('../../asserts/images/ground.png');
+  height: 466px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero3__h1 {
+  font-weight: 700;
+  font-size: 64px;
+  color: #fff;
+  text-align: center;
+}
+
+.subhero {
+  display: flex;
+  width: 422px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.subhero h2 {
+  font-weight: 700;
+  font-size: 32px;
+  color: #fff;
+}
+
+.subhero h3 {
+  font-weight: 700;
+  font-size: 32px;
+  color: #c7923e;
+}
+
+@media screen and (max-width: 375px) {
+  .subhero {
+    width: 300px;
+  }
+}
