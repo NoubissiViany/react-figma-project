@@ -1,16 +1,11 @@
 .pictures__content__container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  width: 90%;
-  margin: 0 auto 60px;
-  gap: 10px;
+  column-count: 5;
+  padding-inline: 30px;
+  margin-bottom: 50px;
 }
 
 .pic {
-  width: 200px;
-  height: 200px;
+  width: 95%;
 }
 
 .pictures__btn {
