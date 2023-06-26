@@ -110,7 +110,7 @@ export default function Imgture() {
       <div className="pictures__content">
         <div className="pictures__content__container">
           {test.map((data) => {
-            return <img src={data.src} alt="" className="pic" />;
+            return <img src={data.src} alt="Gallery images" className="pic" />;
           })}
         </div>
       </div>
