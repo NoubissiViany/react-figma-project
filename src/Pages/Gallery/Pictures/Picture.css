@@ -1,11 +1,11 @@
 .pictures__content__container {
-  column-count: 6;
-  padding: 0 30px;
+  column-count: 5;
+  padding-inline: 30px;
   margin-bottom: 50px;
 }
 
 .pic {
-  width: 13rem;
+  width: 95%;
 }
 
 .pictures__btn {
